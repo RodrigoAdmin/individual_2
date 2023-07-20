@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link  href="{% static 'assets/estilos/estilos.css' %}" rel="stylesheet" type="text/css">
+    <title>Landing Page Sencilla</title>
+
+</head>
+<body>
+    <header>
+    <h1>Te lo Vendo Rápido</h1>
+    <nav>
+    <ul>
+        <li><a href="#about">Acerca de Nosotros</a></li>
+        <li><a href="#services">Servicios Ofrecidos</a></li>
+        <li><a href="#contact">Contáctanos</a></li>
+    </ul>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <h2>Bienvenido a nuestra Landing Page</h2>
+    <p>Descripción breve de los beneficios o propósito de tu producto o servicio.</p>
+    <a href="#contact" class="cta-button">Contáctanos</a>
+  </section>
+  
+  <section id="about">
+    <h2>Acerca de Nosotros</h2>
+    <p>Información relevante sobre tu empresa o proyecto.</p>
+  </section>
+  
+  <section id="services">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Servicio 1</li>
+      <li>Servicio 2</li>
+      <li>Servicio 3</li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Información de contacto, como dirección, número de teléfono o correo electrónico.</p>
+    <form>
+      <input type="text" placeholder="Nombre">
+      <input type="email" placeholder="Correo Electrónico">
+      <textarea placeholder="Mensaje"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  
+  <footer>
+    <p>Derechos Reservados &copy; 2023 Awakelabs</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(255, 47, 206);
+    text-decoration: underline;
+}
+
+header {
+    background-color: #e6f1e7;
+    padding: 20px;
+}
+
+body {
+    background-color: #ecefac; 
+}
+
+
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #28392a;
+    padding: 50px;
+}
+
+.cta-button {
+  background-color: #ff3366;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #d8d4d4;
+    text-align: center;
+    padding: 20px;
+}
